@@ -1,23 +1,22 @@
 body {
   background-image: url(../images/1.jpg);
-  background-size: 1690px 1000px;
+  background-size: 1560px 870px;
   background-repeat: no-repeat, no-repeat;
   background-attachment: fixed;
 }
 
 div.column {
-  width: 800px;
-  height: 100%;
+  width: 730px;
+  height: 820px;
   padding: 25px;
-  max-width: 1660px;
   background: rgba(15, 15, 20, 0.5);
   position: fixed;
-  left: 840px;
+  left: 780px;
   right: 0px;
 }
 
 p, h1, h4, li {
-  color: white;
+  color: #e6e6e6;
   font-family: sans-serif;
 }
 
@@ -33,7 +32,7 @@ h1 {
 }
 
 p, h4 {
-  font-size: 11px;
+  font-size: 10px;
 }
 
 .gallery {
@@ -47,15 +46,15 @@ p, h4 {
 }
 
 img {
-  width: 260px;
-  height: 200px;
+  width: 235px;
+  height: 180px;
   border: 1px solid orange;
   margin-top: 5px;
 }
 
 .header {
-  background-color: black;
-  width: 830px;
+  background-color: #262626;
+  width: 760px;
   top: 0;
   right: 0;
   position: absolute;
@@ -66,12 +65,10 @@ img {
   float: left;
   font-weight: lighter;
   font-size: 22px;
-  vertical-align: middle;
 }
 
 #login {
   float: right;
-  vertical-align: bottom;
 }
 
 ul {
@@ -81,19 +78,20 @@ ul {
   padding: 0;
   background-color: #ca4200;
   right: 0;
-  width: 850px;
+  width: 780px;
 }
 
 li {
   float: left;
   display: block;
   font-size: 9;
-  padding: 4px 125px;
+  padding: 4px 110px;
 }
 
 .footer {
-  width: 800px;
-  bottom: 0;
-  right: 0;
+  width: 760px;
+  bottom: 0px;
+  right: 0px;
   position: absolute;
+  padding: 10px;
 }
